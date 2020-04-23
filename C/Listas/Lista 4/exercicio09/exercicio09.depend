@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1586964155 source:c:\users\lcs20\documents\materias\aed1\trabalhosprova\lista 4\exercicio09\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+

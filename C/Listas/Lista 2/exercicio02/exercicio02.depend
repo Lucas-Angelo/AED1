@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1584098187 source:c:\users\lcs20\documents\materias\aed1\c\exercicios02\exercicio02\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1587097443 source:c:\users\lcs20\documents\materias\aed1\trabalhosprova\lista 2\exercicio02\main.c
+	<stdio.h>
+	<stdlib.h>
+

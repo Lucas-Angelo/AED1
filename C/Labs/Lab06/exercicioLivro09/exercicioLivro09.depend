@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1586376785 source:c:\users\lcs20\downloads\exerciciolivro09\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1586377388 source:c:\users\lcs20\documents\materias\aed1\c\labs\lab06\exerciciolivro09\main.c
+	<stdio.h>
+	<stdlib.h>
+

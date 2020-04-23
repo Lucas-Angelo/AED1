@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1587082382 source:c:\users\lcs20\documents\materias\aed1\c\labs\lab06\exerciciooutros02\main.c
+	<stdio.h>
+	<stdlib.h>
+
