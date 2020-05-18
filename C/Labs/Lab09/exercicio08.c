@@ -28,6 +28,10 @@ int funcao(char string[250], char caractere, int i)
     }
     else
     {
+        if(i==strlen(string))
+        {
+            return 2;
+        }
         return funcao(string,caractere,i+1);
     }
 }
