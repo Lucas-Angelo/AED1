@@ -6,7 +6,7 @@
 
 int main()
 {
-    int matriz[linhas][colunas], i, j, maiorNumero, menorNumero, linhaMaior, colunaMaior, linhaMenor, colunaMenor;
+    int matriz[linhas][colunas], i, j, maiorNumero, menorNumero, linhaMaior, colunaMaior, linhaMenor, colunaMenor, somatorio=0;
     float media;
 
     for(i=0;i<linhas;i++)
@@ -35,6 +35,7 @@ int main()
         for(j=0;j<colunas;j++)
         {
             printf("%d | ", matriz[i][j]);
+            somatorio+=matriz[i][j];
             if(matriz[i][j]>maiorNumero)
             {
                 maiorNumero=matriz[i][j];
@@ -50,6 +51,10 @@ int main()
         }
     }
     printf("\n\n-------------------------\n\n");
+
+    media=(somatorio*1.0)/12.0;
+
+    printf("A media e: %.2f\n", media);
 
     printf("Maior numero: %d Posicao: %d | %d\n", maiorNumero, linhaMaior+1, colunaMaior+1);
     printf("Menor numero: %d Posicao: %d | %d\n", menorNumero, linhaMenor+1, colunaMenor+1);
