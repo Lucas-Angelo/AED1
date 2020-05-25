@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#define Qprecos 3 /////////////////////////////////////////////////////
-#define Qarmazens 2 /////////////////////////////////////////////////////
-#define Qprodutos 3/////////////////////////////////////////////////////
+#define Qprecos 10
+#define Qarmazens 5
+#define Qprodutos 10
 
 int main()
 {
-    int precos[Qprecos], quantParma[Qarmazens][Qprodutos], i, j, quantToParma[]={0, 0}/*Aqui*/, totalPorProduto[]={0, 0, 0}/*Aqui*/, maiorEstoque=0, precoDele=0, menorEstoque, armaMenorEstoque, custoParma[]={0, 0};
+    int precos[Qprecos], quantParma[Qarmazens][Qprodutos], i, j, quantToParma[]={0, 0, 0, 0, 0}/*Aqui*/, totalPorProduto[]={0, 0, 0, 0, 0, 0, 0, 0, 0, 0}/*Aqui*/, maiorEstoque=0, precoDele=0, menorEstoque, armaMenorEstoque, custoParma[]={0, 0};
 
     for(i=0;i<Qprecos;i++)
     {
@@ -26,19 +26,7 @@ int main()
         }
     }
 
-    for(i=0;i<Qarmazens;i++)
-    {
-        printf("\n");
-        for(j=0;j<Qprodutos;j++)
-        {
-            printf("%d | ", quantParma[i][j]);
-        }
-    }
     printf("\n");
-    for(i=0;i<Qprecos;i++)
-    {
-        printf("%d | ", precos[i]);
-    }
 
     for(i=0;i<Qarmazens;i++)
     {
