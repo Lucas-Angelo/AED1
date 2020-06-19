@@ -1,0 +1,4 @@
+1;Otavio Augusto;1200
+2;Maria Jose;800
+3;Marielton;1000
+4;Antonia;1500
