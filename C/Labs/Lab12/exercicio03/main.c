@@ -3,7 +3,7 @@
 #include <string.h>
 #include <ctype.h>
 
-#define tam 3
+#define tam 20
 
 
 typedef struct Populacao{
