@@ -1,0 +1,8 @@
+1;Otavio Augusto;1200
+2;Maria Jose;800.50
+3;Marielton;1000.60
+4;Antonia;1500
+5;Joao das Couves;2200.40
+6;Maria Jose;900
+7;Terezinha;10000.80
+8;Joao Jose;1500.80
